@@ -15,7 +15,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 const corsOptions = {
-	origin: ["http://localhost:5173"],
+	origin: ['https://blog-website-blue-kappa.vercel.app',
+		'https://blog-website-git-master-reggys-projects-f2037f72.vercel.app',
+		'https://blog-website-k9g2nvfcq-reggys-projects-f2037f72.vercel.app'
+	],
 	credentials: true,
 	optionsSuccessStatus: 200
 }
