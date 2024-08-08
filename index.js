@@ -18,7 +18,7 @@ const corsOptions = {
 	origin: ['https://blog-website-blue-kappa.vercel.app',
 		'https://blog-website-git-master-reggys-projects-f2037f72.vercel.app',
 		'https://blog-website-3uc14i4o8-reggys-projects-f2037f72.vercel.app',
-		'http://localhost:5137'
+		'http://localhost:5173'
 	],
 	credentials: true,
 	optionsSuccessStatus: 200
